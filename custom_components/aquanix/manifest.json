@@ -1,0 +1,12 @@
+{
+  "domain": "aquanix",
+  "name": "Aquanix ST-101",
+  "codeowners": ["@ugurbaykoc"],
+  "config_flow": true,
+  "documentation": "https://github.com/ugurbaykoc/aquanix-ha",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ugurbaykoc/aquanix-ha/issues",
+  "requirements": [],
+  "version": "1.1.0"
+}

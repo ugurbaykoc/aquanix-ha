@@ -1,0 +1,10 @@
+delete_message:
+  name: Mesajı Sil
+  description: Aquanix sunucusundaki aktif mesajı siler. entry_id verilmezse aktif mesajı olan tüm cihazlardan siler.
+  fields:
+    entry_id:
+      name: Entry ID
+      description: Sadece belirli bir cihazı hedeflemek için config entry ID (Ayarlar > Cihazlar > Aquanix ST-101 > ⋮ > Entegrasyon bilgisi).
+      required: false
+      selector:
+        text:

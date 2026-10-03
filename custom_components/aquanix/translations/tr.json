@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aquanix ST-101 Kurulumu",
+        "description": "mitmproxy ile yakaladığınız cihaz bilgilerini girin.",
+        "data": {
+          "device_id": "Cihaz ID (device_id)",
+          "password": "Şifre (sifre)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Aquanix ST-101 Yeniden Kimlik Doğrulama",
+        "description": "Kayıtlı şifre reddedildi. Güncel şifreyi girin.",
+        "data": {
+          "password": "Şifre"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Sunucuya bağlantı kurulamadı",
+      "invalid_auth": "Geçersiz cihaz ID veya şifre",
+      "unknown": "Bilinmeyen hata"
+    },
+    "abort": {
+      "already_configured": "Bu cihaz zaten yapılandırılmış",
+      "reauth_successful": "Yeniden kimlik doğrulama başarılı"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval": "Güncelleme sıklığı (saniye)"
+        }
+      }
+    }
+  }
+}
